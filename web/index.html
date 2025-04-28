@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Vida Blava</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <a class="logo" href="#">
+            <div class="logo2"><img src="../media/logo.png" alt=""></div>
+        </a>
+        <nav id="menu" class="menu">
+            <ul class="linksMenu">
+                <li><a href="#about">Què és <span class="color">Vida Blava</span></a></li>
+                <li><a href="#Info">Amenaces</a></li>
+                <li><a href="#noticia">Notícies</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+        <a class="menuM" onclick="openNav(event)" href="#"><img src="../media/mediaWEB/menu.svg" alt="Menu"></a>
+
+        <div id="menu-mobile" class="menuMobile">
+            <a class="close" onclick="closeNav(event)" href="#"><img src="../media/mediaWEB/close.svg" alt="close"></a>
+            <div class="contMobile">
+                <a href="#about">Què és <span id="color">Vida Blava</span></a>
+                <a href="#Info">Amenaces</a>
+                <a href="#noticia">Notícies</a>
+                <a href="#galeria">Galeria</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+
+        <div class="contText">
+            <h1>Protegeix la bellesa blava <br> que ens envolta.</h1>
+            <p>Els nostres oceans i costes són tresors naturals en perill. <br> Informa't sobre els impactes de la
+                contaminació i uneix-te a la lluita per un futur <br> marí més net i saludable.</p>
+        </div>
+        <form action="#about"><button class="btn"></a>Explorar</button></form>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="cont-img"></div>
+            <div class="contText">
+                <center>
+                    <h2>Què és <span class="color">Vida Blava</span></h2>
+                </center>
+                <p>Els oceans, molt més que vastes extensions d'aigua, són el cor palpitant del nostre planeta. Regulen
+                    el clima, alberguen la biodiversitat més rica de la Terra i, crucialment, actuen com un escut vital,
+                    absorbint gran part del CO₂ i la calor que generem. No obstant això, aquest cor blau està malalt. La
+                    contaminació per plàstics, el canvi climàtic i la sobrepesca amenacen la seva salut, i amb ella, la
+                    nostra. En VIDA BLAVA, creiem que la joventut és la clau per a revertir aquesta situació. Et
+                    convidem a explorar amb nosaltres la bellesa i fragilitat de la vida marina, a descobrir com les
+                    nostres accions impacten en aquest ecosistema vital, i a unir-te a la missió de protegir el blau</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="Info">
+        <div class="container">
+            <div class="contText">
+                <div class="prin">
+                    <center>
+                        <h2>Amenaces a la Vida Submarina</h2>
+                    </center>
+                    <p>Els oceans estan en perill. La contaminació per plàstics asfixia i enverina la vida marina. La
+                        pesca destructiva i la "pesca fantasma" destrueixen hàbitats i capturen animals sense distinció.
+                        El canvi climàtic acidifica els oceans i els escalfa, amenaçant la supervivència de moltes
+                        espècies.
+
+                        Aquestes accions tenen conseqüències directes per a la biodiversitat marina i la nostra pròpia
+                        salut. Els oceans són vitals per al planeta i per a nosaltres.
+
+                        Podem actuar: reduint plàstics, consumint productes del mar sostenibles, protegint àrees marines
+                        i exigint accions contra el canvi climàtic. És hora de protegir el nostre mar.</p>
+                </div>
+
+                <div class="contImg"></div>
+            </div>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="../media/pexels-mrwandart-2827735.jpg" alt="img1">
+                    <div class="card-content">
+                        <h3>La Plaga Invisible: Contaminació per Plàstics</h3>
+                        <p>Els nostres oceans s'estan convertint en un abocador gegant de plàstic. Des de
+                            microplàstics
+                            invisibles fins a enormes xarxes de pesca abandonades.</p>
+                        <form action="./amenaces.html"><button id="btnOpen" class="btnOpen">veure més</button></form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../media/carta2.png" alt="img1">
+                    <div class="card-content">
+                        <h3>El Canvi Silenciós: Acidificació dels Oceans</h3>
+                        <p>L'absorció excessiva de diòxid de carboni (CO₂) per part dels oceans, resultat de la
+                            crema de combustibles fòssils, està provocant un augment en l'acidesa de l'aigua.</p>
+                        <form action="./amenaces.html"><button id="btnOpen" class="btnOpen">veure més</button></form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../media/pexels-n-voitkevich-4813980.jpg" alt="img1">
+                    <div class="card-content">
+                        <h3>La Pesca Fantasma i la Destrucció d'Hàbitats</h3>
+                        <p>Les pràctiques de pesca destructives, com l'arrossegament de fons, devasten els llits
+                            marins, destruint hàbitats essencials com els esculls de coral i els llits d'algues on
+                            innombrables espècies troben refugi i aliment.</p>
+                        <form action="./amenaces.html"><button id="btnOpen" class="btnOpen">veure més</button></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <div class="ful-img" id="fulImgBox">
+                <img src="imgs/1.jpg" id="fulImg" alt="">
+                <span onclick="closeImg()">X</span>
+            </div>
+
+            <h1><span>Galeria</span></h1>
+
+            <div class="img-gallery">
+                <img src="../media/pexels-mrwandart-2827735.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/seals-5221527_1280.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/carta2.png" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/whales-4858366_1280.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/shark-220748_1280.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/playa.webp" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/fondo3.jpeg" onclick="openFulImg(this.src)" alt="">
+                <img src="../media/pexels-ron-lach-9034671.jpg" onclick="openFulImg(this.src)" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="noticia">
+        <div class="container">
+            <center><h1>Notícies importants</h1></center>
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="../media/noticia1.webp" alt="img1">
+                    <div class="card-content">
+                        <h3>La presència de microplàstics a la costa catalana supera la mitjana de la Mediterrània
+                            occidental</h3>
+                        <p>Un estudi recent revela que les platges i aigües de Catalunya presenten una concentració de
+                            microplàstics superior a la d'altres zones de la Mediterrània occidental, amb greus
+                            implicacions per a la fauna marina i la salut humana.</p>
+                        <form action="https://www.catalunyapress.cat/article/portada/2025-04-10/5251366-microplasticos-costa-catalana-aquesta-platja-mes-contaminada" target="_blank"><button id="btnOpen" class="btnOpen">veure més</button></form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../media/noticia2.jpg" alt="img1">
+                    <div class="card-content">
+                        <h3>Alerta per la contaminació química a la Badia de Portmany a Eivissa</h3>
+                        <p>Les autoritats han expressat preocupació per la detecció de nivells elevats de contaminants
+                            químics en aigües de la Badia de Portmany, possiblement derivats d'activitats industrials o
+                            abocaments, amb possibles efectes nocius per a l'ecosistema marí.</p>
+                        <form action="https://ib3.org/nou-vessament-a-la-badia-de-portmany-per-un-incident-a-lemissari-de-la-depuradora" target="_blank"><button id="btnOpen" class="btnOpen">veure més</button></form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../media/noticia3.jpg" alt="img1">
+                    <div class="card-content">
+                        <h3>La contaminació per deixalles marines amenaça la biodiversitat del Cap de Creus</h3>
+                        <p>Un augment significatiu de residus sòlids, especialment plàstics, s'ha observat al Parc
+                            Natural del Cap de Creus, posant en perill espècies marines protegides i alterant els
+                            hàbitats naturals d'aquesta important zona de la Costa Brava.</p>
+                        <form action="https://www.submon.org/la-pesca-recreativa-i-la-contaminacio-marina/" target="_blank"><button id="btnOpen" class="btnOpen">veure més</button></form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="hero2">
+        <div class="container">
+            <h1>La teva acció, un oceà de canvis.</h1>
+            <p>Informa't, comparteix i participa. Junts podem marcar <br>la diferència i construir un futur on la vida
+                marina prosperi.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 La teva organització. Tots els drets reservats.</p>
+            <ul>
+                <li><a href="#">Política de privacitat</a></li>
+                <li><a href="#">Avís legal</a></li>
+                <li><a href="#">Contacte</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
